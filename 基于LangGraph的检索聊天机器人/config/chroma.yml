@@ -1,0 +1,10 @@
+collection_name: "rag"
+persist_directory: "chroma_db"
+embedding_function: "embedding-2"
+k: 3
+data_path: data
+md5_hex_store: md5.text
+allow_knowledge_file_type: ["txt","pdf"]
+chunk_size: 200
+chunk_overlap: 20
+separates: ["\n", "\n\n", "。", "！", "？"]

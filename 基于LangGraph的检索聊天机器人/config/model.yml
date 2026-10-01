@@ -1,0 +1,2 @@
+chat_model : "deepseek-v4-pro"
+embedding_model : "embedding-2"
